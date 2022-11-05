@@ -40,9 +40,9 @@ JIT runtime error: Cannot read properties of undefined (reading 'length')
 # install dependencies
 pnpm i
 
-# start local mysql 8 server
+# start a local mysql 8 server
 docker compose up -d
 
-# When the db is up, run src/index.ts
+# When the db is up, run index.ts
 pnpm start
 ```
